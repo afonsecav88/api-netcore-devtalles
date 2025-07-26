@@ -1,1 +1,47 @@
-docker-compose.yml
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Logs
+*.log
+
+# Publish output
+publish/
+out/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Configuration files
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Rider
+.idea/
+
+# Resharper
+*.DotSettings.user
+
+# Test results
+TestResults/
+*.coverage
+*.coveragejson
