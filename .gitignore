@@ -1,6 +1,8 @@
-# Build results
-bin/
-obj/
+# dependencies
+/node_modules
+/bin
+/obj
+/Migrations
 
 # User-specific files
 *.user
@@ -45,3 +47,6 @@ secrets.json
 TestResults/
 *.coverage
 *.coveragejson
+
+#Docker container creation
+docker-compose.yml

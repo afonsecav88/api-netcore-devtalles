@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\ApiEcommerce.csproj": {}
+    "c:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\ApiEcommerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\ApiEcommerce.csproj": {
+    "c:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\ApiEcommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\ApiEcommerce.csproj",
+        "projectUniqueName": "c:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\ApiEcommerce.csproj",
         "projectName": "ApiEcommerce",
-        "projectPath": "C:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\ApiEcommerce.csproj",
+        "projectPath": "c:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\ApiEcommerce.csproj",
         "packagesPath": "C:\\Users\\afonseca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\obj\\",
+        "outputPath": "c:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
