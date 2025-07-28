@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 //Add services to the container
 //Configuration db connection
+//GetConnectionString("ConexionSql") from user secrets
 var dbConnectionString = builder.Configuration.GetConnectionString("ConexionSql");
 builder.Services.AddDbContext<ApplicationDbContext>((options) =>
 options.UseSqlServer(dbConnectionString));
@@ -28,8 +29,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+  app.UseSwagger();
+  app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

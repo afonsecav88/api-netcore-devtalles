@@ -13,6 +13,7 @@ public class Product
   public string Name { get; set; } = string.Empty;
   public string Description { get; set; } = string.Empty;
   [Range(0, double.MaxValue)]
+  [Column(TypeName = "decimal(18,2)")]
   public decimal Price { get; set; }
 
   public string ImageUrl { get; set; } = string.Empty;
@@ -25,7 +26,7 @@ public class Product
   public DateTime? UpdateDate { get; set; } = null;
 
   //Relacin con el modelo category
-  [ForeignKey("Id")]
+  [ForeignKey("CategoryId")]
   public int CategoryId { get; set; }
   public required Category Category { get; set; }
 }
