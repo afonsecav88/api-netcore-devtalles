@@ -59,8 +59,6 @@ public class CategoryRepository : ICategoryRepository
   public async Task<bool> UpdateCategory(Category category)
   {
     category.CreationDate = DateTime.Now;
-    // _db.Entry(category).State = EntityState.Modified;
-    // var rowsAffected = await _db.SaveChangesAsync();
     _db.Categories.Update(category);
     return await Save();
   }

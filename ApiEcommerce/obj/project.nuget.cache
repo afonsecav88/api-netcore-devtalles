@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VEu4vyI13KE=",
+  "dgSpecHash": "9O+Y9rjZHO0=",
   "success": true,
-  "projectFilePath": "c:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\ApiEcommerce.csproj",
+  "projectFilePath": "C:\\Users\\afonseca\\Desktop\\C#\\Devtalles\\ApiEcommerce\\ApiEcommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\afonseca\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\afonseca\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

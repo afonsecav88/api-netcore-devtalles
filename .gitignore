@@ -3,6 +3,10 @@
 /bin
 /obj
 /Migrations
+./bin
+./obj
+bin/
+obj/
 
 # User-specific files
 *.user
