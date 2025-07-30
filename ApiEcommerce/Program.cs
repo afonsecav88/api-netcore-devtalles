@@ -15,6 +15,7 @@ options.UseSqlServer(dbConnectionString));
 
 //Dependencies Container
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddAutoMapper(c => c.AddMaps(typeof(Program).Assembly));
 
 // Define the use of controllers
