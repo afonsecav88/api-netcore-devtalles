@@ -26,11 +26,7 @@ namespace ApiEcommerce.Controllers
       try
       {
         var products = await _productRepository.GetProducts();
-        var productsDto = new List<ProductDto>();
-        foreach (var product in products)
-        {
-          productsDto.Add(_mapper.Map<ProductDto>(product));
-        }
+        var productsDto = _mapper.Map<List<ProductDto>>(products);
         return Ok(productsDto);
       }
       catch (Exception ex)

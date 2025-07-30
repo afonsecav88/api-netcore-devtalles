@@ -1,8 +1,6 @@
-using System;
 using ApiEcommerce.Data;
 using ApiEcommerce.Model;
 using ApiEcommerce.Repository.IRepository;
-using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiEcommerce.Repository;
